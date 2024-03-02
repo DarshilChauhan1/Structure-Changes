@@ -6,7 +6,6 @@ const Expense = sequelize.define('expense', {
     type: Sequelize.INTEGER,
     autoIncrement: true,
     allowNull: false,
-    unique: true,
     primaryKey: true,
   },
   amount: {
